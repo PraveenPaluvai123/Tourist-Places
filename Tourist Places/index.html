@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tourist places</title>
+	<meta name= viewport content= "width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Flamenco" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+	<header>
+		<nav>
+			<div class="row clearfix">
+				<img href="pyramid.html" src="images/12.png" class="logo">
+
+				<ul class="main-nav animated slideInDown" id="check-class">
+					<li><a href="about.html">About Us</a></li>
+					<li><a href="#">Packages</a></li>
+					<li><a href="#">Careers </a></li>
+					<li><a href="#">Sign up/login</a></li>
+				</ul>
+				<a href="#" class="mobile-icon"  onclick="slideshow()"> <i class="fa fa-bars"></i> </a>
+			</div>
+		</nav>
+
+		<div class="main-content-header">
+			<h1> WELCOME TO <span class="colorchange">Tourist Destination </span>.<br>
+				of the World </h1>
+				<li>
+			<a href="pyramid.html" class="btn btn-full"> Great Pyramid of Giza</a></li>
+			<li>
+			<a href="colossus.html" class="btn btn-full">Colossus of Rhodes </a></li>
+			<li>
+			<a href="babylon.html" class="btn btn-full"> Hanging Gardens of Babylon</a>
+			</li>
+			<li>
+			<a href="alexandria.html" class="btn btn-full">Lighthouse of Alexandria </a>
+			</li>
+			<li>
+			<a href="mausolem.html" class="btn btn-full"> Mausoleum at Halicarnassus</a>
+			</li>
+			<li>
+			<a href="statue.html" class="btn btn-full">Statue of Zeus at Olympia</a>
+			</li>
+			<li>
+			<a href="Artemis.html" class="btn btn-full"> Temple of Artemis</a>
+			  </li>
+		</div>
+	</header>
+
+	<script type="text/javascript">
+		
+		function slideshow(){
+			 var x = document.getElementById('check-class');
+			 if(x.style.display === "none"){
+			 	x.style.display="block";
+			 }else{
+			 	x.style.display="none";
+			 }
+		}	
+
+	</script>
+
+</body>
+</html>
